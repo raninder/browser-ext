@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "My Vite Extension",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "32": "emb.png"
+    }
+}
+
+
+//host permission meand you can run content scripts on any URL in production  but if you want to run on any sepcific URLS, you can provide it here
